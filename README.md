@@ -1,3 +1,7 @@
+<p align="center" style="background:#ffffff;padding:24px 0;margin:0;">
+  <img src="APPROXINATION_Logo.png" alt="Approxination" width="100%" style="background:#ffffff;display:block;" />
+</p>
+
 # Inverse Arena
 
 **An open, community-driven ranking of AI skills based on real execution evidence.**
