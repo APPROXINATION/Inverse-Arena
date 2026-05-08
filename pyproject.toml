@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "inverse-arena-eval"
+version = "0.1.0"
+description = "Fuzzy-logic evaluation pipeline for community-driven AI skill rankings"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Approxination" },
+]
+keywords = ["ai", "skills", "evaluation", "fuzzy-logic", "elo", "arena", "agents"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+# Zero runtime dependencies — pure stdlib
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/approxination/inverse-arena-eval"
+Repository = "https://github.com/approxination/inverse-arena-eval"
+Issues = "https://github.com/approxination/inverse-arena-eval/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["inverse_arena_eval"]

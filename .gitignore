@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Build / dist
+build/
+dist/
+*.tgz
+
+# Test / coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Local SQLite DBs and data
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+arena.db*
+
+# Env / secrets
+.env
+.env.*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
