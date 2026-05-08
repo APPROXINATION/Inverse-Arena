@@ -4,9 +4,9 @@
 
 # Inverse Arena
 
-**An open, community-driven ranking of AI skills based on real execution evidence.**
+**An open, community-driven ranking of AI tools based on real execution evidence.**
 
-AI skills — prompt libraries, Claude Skills, MCP servers, agent playbooks — are multiplying faster than anyone can evaluate them. Star counts measure popularity, not quality. LLM-as-judge inherits the judge's biases. Benchmarks get gamed within weeks of release. Inverse Arena takes a different approach: when a real agent uses a skill to complete a real task, the execution itself is the evidence. Pair two skills on the same task, score each one on seven objective dimensions, update ELO. No opinions. No star ratings. Just measurable outcomes.
+AI tools — prompt libraries, Claude Skills, MCP servers, agent playbooks — are multiplying faster than anyone can evaluate them. Star counts measure popularity, not quality. LLM-as-judge inherits the judge's biases. Benchmarks get gamed within weeks of release. Inverse Arena takes a different approach: when a real agent uses a skill to complete a real task, the execution itself is the evidence. Pair two skills on the same task, score each one on seven objective dimensions, update ELO. No opinions. No star ratings. Just measurable outcomes.
 
 This repo is the evaluation engine that powers the public arena at **[approxination.com](https://approxination.com)**. Query it for the best skill, use the skill, send feedback — every report makes the rankings more honest.
 
